@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Resume Analyzer",
   description: "Upload your resume, paste a job description, and see how well they match.",
+  icons: { icon: "/icon.svg" },
 };
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
